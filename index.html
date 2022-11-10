@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .love{
+            background-color: rgb(56, 33, 12);
+            color: rgb(228, 218, 204);
+            font-size: 20px;
+            margin: 10px auto;
+            padding: 10px 20px;
+        }
+        #like{
+            background-color: rgb(103, 107, 94);
+            color: rgb(7, 7, 7);
+            font-size: bold;
+            margin: auto;
+            padding: 20px 40px;
+            cursor: copy;
+        }
+        .hate{
+            background-color: rgb(211, 89, 18);
+            color: rgb(238, 225, 225);
+            font-size: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: auto;
+            padding: 20px 40px;
+        }
+        #unlike{
+            background-color: rgb(25, 87, 51);
+            color: rgb(15, 14, 14);
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: auto;
+            padding: 20px 40px;
+            cursor: progress;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <ol class="love" id="like"> <h3>My Likes</h3>
+                <li>Turning Coffee to Codes</li>
+                <li>Soft Life</li>
+                <li>Volunteering</li>
+                <li>Watching K-drama</li>
+                <li>Vibes and Cruise</li>
+            </ol>
+        </div>
+        <div>
+            <ul class="hate" id="unlike"><h3>My Dislikes</h3>
+                <li>Mediocity</li>
+                <li>Laziness</li>
+                <li>African Salad</li>
+                <li>Sufferhead</li>
+                <li>Noise</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
